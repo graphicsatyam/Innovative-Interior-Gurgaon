@@ -36,7 +36,35 @@
   }
   
   @media screen and (min-width: 420px) and (max-width: 600px) {
-    .heading {
+    heading {
        padding: 23px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 700;
+       text-decoration: underline;
     }
+}
+/* @media screen and (min-width: 350px) and (max-width: 370px) { */
+
+  @media screen and (min-width: 350px) and (max-width: 370px) {
+    form {
+      padding: 0 20px !important;
+      width: 306px !important;
+  }
+    .heading {
+      padding: 8px !important;
+      text-decoration: underline;
+  }
+  
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 420px) {
+  form {
+    padding: 0 20px !important;
+    width: 321px !important;
+}
+  .heading {
+    padding: 8px !important;
+    text-decoration: underline;
+}
+
 }

@@ -1,6 +1,9 @@
 
 
 .heading h2{
+    
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 700;
     color: #762f53;
     font-weight: 600;
     font-size: 2rem;
@@ -64,11 +67,23 @@
     .all_img {
         gap: 3rem;
     }
-    .heading h2 {
-        padding: 2px;
-    }
+    
     .paragraph {
         padding: 22px;
+        text-align: justify;
     }
 
+}
+
+@media screen and (min-width: 350px) and (max-width: 420px) {
+
+    .paragraph {
+        
+        padding: 0px 27px !important;
+        text-align: justify !important;
+    }
+    .heading h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+        padding: 8px !important;
+    }
 }

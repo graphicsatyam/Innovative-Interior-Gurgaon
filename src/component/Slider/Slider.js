@@ -42,13 +42,13 @@ const Slider = () => {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
-        <SwiperSlide> <img src='/images/Slider3.jpeg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider2.jpg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider1.jpg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider4.jpeg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider5.jpg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider3.jpeg' alt=''/> </SwiperSlide>
-        <SwiperSlide> <img src='/images/Slider6.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd1.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd2.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd8.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd4.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd5.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd6.jpg' alt=''/> </SwiperSlide>
+        <SwiperSlide> <img src='/images/sd2.jpg' alt=''/> </SwiperSlide>
       
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>

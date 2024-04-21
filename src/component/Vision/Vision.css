@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .bg{
     background-color: #f3f1f6;
     height: 30vh;
 }
 .heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 700;
     color: #762f53;
     font-weight: 600;
     font-size: 2rem;
     padding: 30px;
+    cursor: pointer;
     text-align: center;
 }
 .top {
@@ -18,7 +22,7 @@
 
 .box {
     /* background-color: rebeccapurple; */
-    background-image: linear-gradient(to right, #ffffff, #fabfa0);
+    background-image: linear-gradient(to right, #ffefd7, #dfedff);
     width: 450px;
     border-radius: 25px;
     height: 450px;
@@ -37,20 +41,52 @@
 .main_heading {
     padding: 13px;
     font-size: 35px;
-    color: rgb(248, 0, 0);
+    color: #ee6500;
     font-family: "Jersey 25", sans-serif;
 }
 .details {
     text-align: justify;
     padding: 0px 20px;
     line-height: 19px;
-    
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
     font-size: 15px;
 }
 .target {
     display: flex;
     gap: 15rem;
     justify-content: center;
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 370px) {
+    .target {
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: 3rem !important;
+        padding: 16px 0 !important;
+    }
+    .box {
+        width: 336px !important;
+        /* justify-content: center !important; */
+        height: 570px !important    ;
+    }
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 420px) {
+    .target {
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: 3rem !important;
+        padding: 16px 0 !important;
+    }
+    .box {
+        width: 336px !important;
+        /* justify-content: center !important; */
+        height: 570px !important    ;
+    }
+
 }
 
 @media screen and (min-width: 420px) and (max-width: 600px) {
@@ -66,3 +102,4 @@
             gap: 3rem;
         }
 }
+

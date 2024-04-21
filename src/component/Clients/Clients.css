@@ -47,5 +47,18 @@ body {
      width:100%;
   }
 }
+@media screen and (min-width: 350px) and (max-width: 370px) {
+  .swiper {
+    width: 90% !important   ;
+    padding: 20px !important;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 420px) {
+  .swiper {
+    width: 90% !important   ;
+    padding: 20px !important;
+}
+
+}
 
 }
