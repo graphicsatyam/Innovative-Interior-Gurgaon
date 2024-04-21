@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Innovative-Interior-Gurgaon/static/css/main.b79698e9.css",
+    "main.js": "/Innovative-Interior-Gurgaon/static/js/main.95ae9df2.js",
+    "index.html": "/Innovative-Interior-Gurgaon/index.html",
+    "main.b79698e9.css.map": "/Innovative-Interior-Gurgaon/static/css/main.b79698e9.css.map",
+    "main.95ae9df2.js.map": "/Innovative-Interior-Gurgaon/static/js/main.95ae9df2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79698e9.css",
+    "static/js/main.95ae9df2.js"
+  ]
+}
